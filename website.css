@@ -135,8 +135,7 @@ section .page2{
 .image-gallery:hover{
     transform: scale(1.1); 
 }
-   
-}
+   /* new section */
 div .frame17{
     /* width: 870px; */
     margin: 0 10px;
@@ -250,4 +249,74 @@ section .card{
 }
 section{
     margin: 20px ,0px;
+}
+/* new section */
+.frame19-section{
+    width: 100%;
+    border: 2px solid black;
+}
+.frame19-card{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    border: 2px dotted black;
+    margin: 50px 0px;
+
+
+}
+div .frame19-title{
+ color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 29px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.frame19-subtitle{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 18px;
+}
+.frame19-hide .subtitle2{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.frame19-hide{
+    border: 1px solid gainsboro;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon-image{
+    list-style: none;
+    display: flex;
+    /* width: 50%; */
+    gap: 10px;
+    margin-top: 19px;
+    justify-content: center;
+}
+.image-gallery1{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
 }
