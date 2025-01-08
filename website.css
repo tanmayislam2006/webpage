@@ -96,14 +96,14 @@ text-align: center;
 margin-top: 16px;
 }
 #span{
- color: rgb(16, 16, 16);
+color: rgb(30, 31, 30);
 font-family: Work Sans;
 font-size: 24px;
 font-weight: 600;
 line-height: 28px;
 letter-spacing: 0%;
 text-align: center;
-background-color: rgb(183, 232, 232);
+background-color: rgb(101, 232, 232);
 border-radius: 20px;
 padding: 10px;
 /* margin-bottom: 30px; */
@@ -124,10 +124,130 @@ section .page2{
     width:100%;
 }
 .image-gallery{
-    width:30%;
-    margin: 5px;
+    /* width:30%; */
+    /* margin: 5px; */
     transition: transform 0.3s ease;
+    width:350px;
+
+   
+
 }
 .image-gallery:hover{
     transform: scale(1.1); 
+}
+   
+}
+div .frame17{
+    /* width: 870px; */
+    margin: 0 10px;
+    margin-top: 10px;
+}
+div .for-title{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+div .frame17-subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.5;
+}
+div .frame17-title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+div .frame17-card-box{
+    display: flex;
+    justify-content: space-between;
+    gap:3px;
+    margin: 20px,0;
+    /* border: 2px solid black;-------------- */
+
+
+}
+.frame17-offer{
+ color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 26px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0%;
+/* text-align: center; */
+margin-top: 16px;
+}
+span#pizza{
+    color: rgb(30, 31, 30);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: rgb(101, 232, 232);
+   border-radius: 3px;
+    padding: 5px;
+    margin-top: 100px;
+}
+div .frame17-content{
+text-align: center;
+/* border: 2px solid black; */
+/* box-shadow: 2px black; */
+margin:;
+margin-bottom: 100px;
+width: 30%;
+
+}
+
+div .frame17-image-div
+{
+border-radius: 16px;
+position: static;
+flex: none;
+order: 0;
+flex-grow: 0;
+align-items: center;
+margin-bottom: 10px;
+
+}
+section .frame17{
+    margin-bottom: 100px;
+}
+div .frame17-last{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-top: 24px;
+
+}
+div .frame17-button{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+section .card{
+    margin: 50px 0px;
+}
+section{
+    margin: 20px ,0px;
 }
